@@ -12,16 +12,16 @@ const sum = $('#summary')
 const app = {
 
     handleEvent: function(){
-        // addBtn.onclick = function(){
-        //     animation.classList.add('active')
+        addBtn.onclick = function(){
+            animation.classList.add('active')
 
-        //     setTimeout(() => {
-        //         animation.classList.remove('active')
-        //         if(firstValue.value && secondValue.value){
-        //             sum.value =  Number(firstValue.value) + Number(secondValue.value)
-        //         }
-        //     }, 500);
-        // }
+            setTimeout(() => {
+                animation.classList.remove('active')
+                if(firstValue.value && secondValue.value){
+                    sum.value =  Number(firstValue.value) + Number(secondValue.value)
+                }
+            }, 500);
+        }
         
         
     },
